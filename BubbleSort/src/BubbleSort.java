@@ -35,10 +35,10 @@ public class BubbleSort {
         }
     }
     void FltBSort(){
-        System.out.printf("\nEnter the maximum size of the array\t");
+        System.out.printf("\nEnter the number of values: \t");
         int n = I.nextInt();
-        System.out.printf("\nEnter the elements of the array\t");
-        float array[] = new float[200];
+        System.out.printf("\nEnter the elements: \t");
+        float array[] = new float[n];
         for (int i = 0; i < n ; i++) {
             array[i] = I.nextFloat();
         }
@@ -63,10 +63,10 @@ public class BubbleSort {
         }
     }
     void CharBSort(){
-        System.out.printf("\nEnter the maximum size of the array\t");
+        System.out.printf("\nEnter the number of values: \t");
         int n = I.nextInt();
-        System.out.printf("\nEnter the elements of the array\t");
-        char array[] = new char[200];
+        System.out.printf("\nEnter the elements: \t");
+        char array[] = new char[n];
         for (int i = 0; i < n ; i++) {
             array[i] = I.next().charAt(0);
 
