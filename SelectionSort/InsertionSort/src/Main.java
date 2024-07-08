@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
 	Scanner I = new Scanner(System.in);
-	BubbleSort DT = new BubbleSort();
+	SelectionSort sel_sort = new SelectionSort();
 	System.out.printf("Enter the type of input data:\n");
         loop1:
         while (true) {
@@ -20,17 +20,17 @@ public class Main {
                 }
                 case 1: {
                     System.out.printf("\nInteger Data Type is selected\n");
-                    DT.IntBSort();
+                    sel_sort.IntSSort();
                     break;
                 }
                 case 2: {
                     System.out.printf("\nFloat Data Type is selected\n");
-                    DT.FltBSort();
+                    sel_sort.FltSSort();
                     break;
                 }
                 case 3: {
                     System.out.printf("\nCharacter Data Type is selected\n");
-                    DT.CharBSort();
+                    sel_sort.CharSSort();
                     break;
                 }
                 default: {
